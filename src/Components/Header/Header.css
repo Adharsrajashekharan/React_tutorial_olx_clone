@@ -146,6 +146,7 @@
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #002f34;
+  text-decoration: none;
 }
 
 /* .sellMenu .sellMenuContent svg {
@@ -153,6 +154,7 @@
 } */
 .sellMenu .sellMenuContent span {
   margin-left: 5px;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 700px) {
@@ -160,5 +162,8 @@
   .productSearch,
   .sellMenu {
     display: none;
+  }
+  .link{
+    text-decoration-color: black;
   }
 }
